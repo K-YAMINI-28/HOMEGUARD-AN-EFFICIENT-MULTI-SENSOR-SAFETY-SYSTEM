@@ -1,0 +1,63 @@
+# HomeGuard Smart Security System - Component List
+
+## 1. Microcontroller & Display
+- Arduino Nano Board (1)
+- 16x2 LCD Display (1)
+
+## 2. Sensors
+- Motion Sensor (PIR) (1)
+- Small Limit Switch (2) - for gate & door
+- Water Tank Sensor (Copper wire based) (1)
+- Rain Sensor (Copper coil based) (1)
+- Home AC Supply Sensor (Zener diode based) (1)
+- LDR (Light Dependent Resistor) (1) - for fence light
+- Voltage Sensor Module (1) - for voltage cutoff
+
+## 3. Actuators & Control
+- 12V DC Buzzer/Hooter (1)
+- Red LED (10)
+- Relay Module (2) - for water tank motor & voltage cutoff
+- Water Pump/Motor (1)
+
+## 4. Logic ICs
+- IC 7432 (OR Gate) (2)
+- IC 7408 (AND Gate) (1)
+- IC 7474 (Flip-Flop) (1)
+
+## 5. Power Components
+- Transformer 12-0-12V 2A (1)
+- Voltage Regulator 7805 (1)
+- Voltage Regulator 7812 (1)
+- Diode 1N4007 (3)
+
+## 6. Passive Components
+- Resistor 100Ω (10)
+- Resistor 1KΩ (20)
+- Capacitor 1000μF/25V (1)
+- Capacitor 10μF/25V (2)
+- Capacitor 0.1μF Disc (5)
+- Transistor BC547 (7)
+
+## 7. Switches & Wiring
+- Push Switch (Red & Green) (1 each)
+- Jumper Wires (Male-to-Female: 10, Male-to-Male: 10)
+- Ribbon Wire 3m (10 colors) (1)
+- General Purpose PCB 2m (1)
+- Power Cable 2m (1)
+
+## 8. System Architecture Components
+
+### Input Layer:
+- 7 Sensors (Motion, Gate, Door, Water, Rain, AC, Light)
+- 2 Push Switches (Control & Reset)
+
+### Processing Layer:
+- OR Gate (Sensor signal aggregation)
+- AND Gate (Alarm triggering logic)
+- Flip-Flop (System state management)
+- Arduino Nano (Data processing)
+
+### Output Layer:
+- Buzzer & LED (Alerts)
+- 2 Relays (Motor control & Power cutoff)
+- LCD Display (Status)
