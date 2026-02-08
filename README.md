@@ -16,13 +16,13 @@ Arduino Nano
 
 PIR Motion Sensor
 
-Magnetic Door Sensor
+Door Sensor-Limit Switches
 
-Water Level Sensor
+Water Level Sensor -Copper wire
 
-Rain Sensor
+Rain Sensor-copper coil
 
-High Voltage Detection Module
+High Voltage Detection Module-Zener Diode
 
 LDR (Light Dependent Resistor)
 
