@@ -75,7 +75,7 @@ Note: The IoT-based remote monitoring module using ESP32 was planned and partial
 🏁 Conclusion
 
 HomeGuard demonstrates a practical implementation of an embedded multi-sensor safety system. The project showcases skills in hardware interfacing, embedded programming, and system-level design, and serves as a strong foundation for future IoT-based enhancements.
-## Learning Outcomes
+# Learning Outcomes
 
 Through this project, the following concepts were explored and implemented:
 
