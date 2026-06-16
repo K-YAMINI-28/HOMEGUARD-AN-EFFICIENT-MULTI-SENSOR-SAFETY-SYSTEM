@@ -85,7 +85,7 @@ Through this project, the following concepts were explored and implemented:
 * Real-time monitoring and alert systems
 * Hardware-software integration
 * Basic IoT concepts and future scalability
-* System design for home safety and security applications
+* System design for home safety and security applications.
 
 
 👩‍💻 Author
